@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAD03CF41ACE79DE004356B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD03CF31ACE79DE004356B5 /* AppDelegate.swift */; };
+		EAD03CF61ACE79DE004356B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD03CF51ACE79DE004356B5 /* ViewController.swift */; };
+		EAD03CF91ACE79DE004356B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD03CF71ACE79DE004356B5 /* Main.storyboard */; };
+		EAD03CFB1ACE79DE004356B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD03CFA1ACE79DE004356B5 /* Images.xcassets */; };
+		EAD03CFE1ACE79DE004356B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAD03CFC1ACE79DE004356B5 /* LaunchScreen.xib */; };
+		EAD03D0A1ACE79DE004356B5 /* pomodoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD03D091ACE79DE004356B5 /* pomodoSwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAD03D041ACE79DE004356B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAD03CE61ACE79DE004356B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAD03CED1ACE79DE004356B5;
+			remoteInfo = pomodoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAD03CEE1ACE79DE004356B5 /* pomodoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD03CF21ACE79DE004356B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD03CF31ACE79DE004356B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAD03CF51ACE79DE004356B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAD03CF81ACE79DE004356B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAD03CFA1ACE79DE004356B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAD03CFD1ACE79DE004356B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAD03D031ACE79DE004356B5 /* pomodoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD03D081ACE79DE004356B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD03D091ACE79DE004356B5 /* pomodoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoSwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAD03CEB1ACE79DE004356B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD03D001ACE79DE004356B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAD03CE51ACE79DE004356B5 = {
+			isa = PBXGroup;
+			children = (
+				EAD03CF01ACE79DE004356B5 /* pomodoSwift */,
+				EAD03D061ACE79DE004356B5 /* pomodoSwiftTests */,
+				EAD03CEF1ACE79DE004356B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAD03CEF1ACE79DE004356B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAD03CEE1ACE79DE004356B5 /* pomodoSwift.app */,
+				EAD03D031ACE79DE004356B5 /* pomodoSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD03CF01ACE79DE004356B5 /* pomodoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				EAD03CF31ACE79DE004356B5 /* AppDelegate.swift */,
+				EAD03CF51ACE79DE004356B5 /* ViewController.swift */,
+				EAD03CF71ACE79DE004356B5 /* Main.storyboard */,
+				EAD03CFA1ACE79DE004356B5 /* Images.xcassets */,
+				EAD03CFC1ACE79DE004356B5 /* LaunchScreen.xib */,
+				EAD03CF11ACE79DE004356B5 /* Supporting Files */,
+			);
+			path = pomodoSwift;
+			sourceTree = "<group>";
+		};
+		EAD03CF11ACE79DE004356B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD03CF21ACE79DE004356B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAD03D061ACE79DE004356B5 /* pomodoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAD03D091ACE79DE004356B5 /* pomodoSwiftTests.swift */,
+				EAD03D071ACE79DE004356B5 /* Supporting Files */,
+			);
+			path = pomodoSwiftTests;
+			sourceTree = "<group>";
+		};
+		EAD03D071ACE79DE004356B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAD03D081ACE79DE004356B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAD03CED1ACE79DE004356B5 /* pomodoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD03D0D1ACE79DE004356B5 /* Build configuration list for PBXNativeTarget "pomodoSwift" */;
+			buildPhases = (
+				EAD03CEA1ACE79DE004356B5 /* Sources */,
+				EAD03CEB1ACE79DE004356B5 /* Frameworks */,
+				EAD03CEC1ACE79DE004356B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pomodoSwift;
+			productName = pomodoSwift;
+			productReference = EAD03CEE1ACE79DE004356B5 /* pomodoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAD03D021ACE79DE004356B5 /* pomodoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAD03D101ACE79DE004356B5 /* Build configuration list for PBXNativeTarget "pomodoSwiftTests" */;
+			buildPhases = (
+				EAD03CFF1ACE79DE004356B5 /* Sources */,
+				EAD03D001ACE79DE004356B5 /* Frameworks */,
+				EAD03D011ACE79DE004356B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAD03D051ACE79DE004356B5 /* PBXTargetDependency */,
+			);
+			name = pomodoSwiftTests;
+			productName = pomodoSwiftTests;
+			productReference = EAD03D031ACE79DE004356B5 /* pomodoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAD03CE61ACE79DE004356B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Guangming Xu";
+				TargetAttributes = {
+					EAD03CED1ACE79DE004356B5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EAD03D021ACE79DE004356B5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EAD03CED1ACE79DE004356B5;
+					};
+				};
+			};
+			buildConfigurationList = EAD03CE91ACE79DE004356B5 /* Build configuration list for PBXProject "pomodoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAD03CE51ACE79DE004356B5;
+			productRefGroup = EAD03CEF1ACE79DE004356B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAD03CED1ACE79DE004356B5 /* pomodoSwift */,
+				EAD03D021ACE79DE004356B5 /* pomodoSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAD03CEC1ACE79DE004356B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD03CF91ACE79DE004356B5 /* Main.storyboard in Resources */,
+				EAD03CFE1ACE79DE004356B5 /* LaunchScreen.xib in Resources */,
+				EAD03CFB1ACE79DE004356B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD03D011ACE79DE004356B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAD03CEA1ACE79DE004356B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD03CF61ACE79DE004356B5 /* ViewController.swift in Sources */,
+				EAD03CF41ACE79DE004356B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAD03CFF1ACE79DE004356B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD03D0A1ACE79DE004356B5 /* pomodoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAD03D051ACE79DE004356B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAD03CED1ACE79DE004356B5 /* pomodoSwift */;
+			targetProxy = EAD03D041ACE79DE004356B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAD03CF71ACE79DE004356B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD03CF81ACE79DE004356B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAD03CFC1ACE79DE004356B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAD03CFD1ACE79DE004356B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAD03D0B1ACE79DE004356B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAD03D0C1ACE79DE004356B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAD03D0E1ACE79DE004356B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pomodoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAD03D0F1ACE79DE004356B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pomodoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAD03D111ACE79DE004356B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pomodoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoSwift.app/pomodoSwift";
+			};
+			name = Debug;
+		};
+		EAD03D121ACE79DE004356B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = pomodoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoSwift.app/pomodoSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAD03CE91ACE79DE004356B5 /* Build configuration list for PBXProject "pomodoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD03D0B1ACE79DE004356B5 /* Debug */,
+				EAD03D0C1ACE79DE004356B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAD03D0D1ACE79DE004356B5 /* Build configuration list for PBXNativeTarget "pomodoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD03D0E1ACE79DE004356B5 /* Debug */,
+				EAD03D0F1ACE79DE004356B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAD03D101ACE79DE004356B5 /* Build configuration list for PBXNativeTarget "pomodoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAD03D111ACE79DE004356B5 /* Debug */,
+				EAD03D121ACE79DE004356B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAD03CE61ACE79DE004356B5 /* Project object */;
+}
