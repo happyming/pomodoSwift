@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="pomodoSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,95 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fg-Su-Dyx">
+                                <rect key="frame" x="16" y="20" width="568" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQO-nK-hIT">
+                                <rect key="frame" x="250" y="289" width="100" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="BEh-56-1kL"/>
+                                    <constraint firstAttribute="width" constant="41" id="rCt-4w-wd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="休息一下">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rCt-4w-wd6"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="rest:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="1T6-Yf-ykI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P3A-OY-cea">
+                                <rect key="frame" x="250" y="395" width="100" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="54" id="o4q-MR-YmO"/>
+                                    <constraint firstAttribute="height" constant="42" id="u34-Zc-bZO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="重置">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="o4q-MR-YmO"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="reset:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pYA-ZM-VcZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emC-ql-ezg">
+                                <rect key="frame" x="250" y="182" width="100" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="ZRG-HY-Ce3"/>
+                                    <constraint firstAttribute="width" constant="49" id="j4J-pb-Aec"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="开始工作"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="j4J-pb-Aec"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="startWork:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tBc-xo-iCk"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7fg-Su-Dyx" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="01a-an-XoD"/>
+                            <constraint firstAttribute="centerX" secondItem="P3A-OY-cea" secondAttribute="centerX" id="3Bf-m6-0OE"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="width" secondItem="P3A-OY-cea" secondAttribute="width" id="5Nx-No-Axh"/>
+                            <constraint firstAttribute="centerX" secondItem="emC-ql-ezg" secondAttribute="centerX" id="6Hn-Ko-m3S"/>
+                            <constraint firstItem="7fg-Su-Dyx" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="8i5-Gy-yiw"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="289" id="CdG-6u-qgN"/>
+                            <constraint firstItem="7fg-Su-Dyx" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Dd0-fl-05s"/>
+                            <constraint firstAttribute="centerX" secondItem="EQO-nK-hIT" secondAttribute="centerX" id="Lm9-Vl-u1m"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="width" secondItem="emC-ql-ezg" secondAttribute="width" id="MF6-c8-ep9"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="height" secondItem="P3A-OY-cea" secondAttribute="height" id="Pk2-8d-4EN"/>
+                            <constraint firstItem="P3A-OY-cea" firstAttribute="top" secondItem="EQO-nK-hIT" secondAttribute="bottom" constant="64" id="gIg-Mn-Qah"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="top" secondItem="emC-ql-ezg" secondAttribute="bottom" constant="65" id="vNr-O1-z9W"/>
+                            <constraint firstItem="EQO-nK-hIT" firstAttribute="height" secondItem="emC-ql-ezg" secondAttribute="height" id="zSq-FF-1u7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="restButton" destination="EQO-nK-hIT" id="2m6-dm-x9W"/>
+                        <outlet property="startWorkButton" destination="emC-ql-ezg" id="BOI-Xt-ps7"/>
+                        <outlet property="timeLable" destination="7fg-Su-Dyx" id="yH1-pO-79w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="441" y="317"/>
         </scene>
     </scenes>
 </document>

@@ -405,6 +405,7 @@
 				EAD03D0F1ACE79DE004356B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAD03D101ACE79DE004356B5 /* Build configuration list for PBXNativeTarget "pomodoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				EAD03D121ACE79DE004356B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
